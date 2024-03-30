@@ -1,0 +1,74 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    color: rgba(255, 249, 249, 0.956);
+    font-size: large;
+    background-color: rgba(3, 5, 55, 0.9);
+}
+.button{ 
+    padding: 24px;
+    width: 73px;
+    margin:0 2px;
+    border-radius:2px;
+    border-width: 4px;
+    border-color: rgb(50, 4, 4);
+font-size: larger;
+color: rgb(3, 29, 29);
+align-items: center;}
+.row{
+    margin:4px 0;
+}
+.row input{
+    font-size:25px ;
+    margin: 0;
+    padding: 8px 0px;
+    border-width: 4px;
+    border-color: rgb(50, 4, 4);
+}
+.left-panel {
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translate(50%, -50%);
+}
+
+.left-panel img {
+    display: block;
+    margin-bottom: 20px;
+    width: 500px;}
+.right-panel {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(50%, -50%);
+}
+
+.right-panel img {
+    display: block;
+    margin-bottom: 20px;
+    width: 400px; }
+.button.instructions {
+    width: 200px; 
+    height: 50px; 
+    background-color:  #00b359 ; 
+    color: white; 
+    font-size: 25px;
+    border-radius: 8px;
+    border: none;
+    padding: 0; 
+    cursor: pointer; 
+    text-align: center; 
+    line-height: 50px; 
+    text-decoration: none; 
+    display: inline-block; 
+   
+} 
+  
+.button.home {
+    background-color:#00b359  ; 
+    color: white; 
+    font-size: 20px; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none;
+}
